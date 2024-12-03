@@ -9,6 +9,10 @@
   "dependencies": {
     "sharp": "^0.33.5"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chalkers/png2embeddedjson.git"
+  },
   "keywords": [
     "png",
     "rgb565",
