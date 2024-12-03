@@ -1,0 +1,31 @@
+{
+  "name": "png2embeddedjson",
+  "version": "1.0.0",
+  "description": "Convert PNG images to embedded JSON with Base64-encoded RGB565 data",
+  "main": "index.js",
+  "bin": {
+    "png2embeddedjson": "./bin.js"
+  },
+  "dependencies": {
+    "sharp": "^0.33.5"
+  },
+  "keywords": [
+    "png",
+    "rgb565",
+    "json",
+    "embedded",
+    "converter"
+  ],
+  "author": "Andrew Chalkley <andrew@chalkley.org>",
+  "license": "MIT",
+  "devDependencies": {
+    "@commitlint/cli": "^19.6.0",
+    "@commitlint/config-conventional": "^19.6.0",
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/npm": "^12.0.1",
+    "husky": "^9.1.7",
+    "jest": "^29.7.0",
+    "semantic-release": "^24.2.0"
+  }
+}
