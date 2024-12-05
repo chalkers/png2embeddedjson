@@ -9,6 +9,7 @@
   "bin": {
     "png2embeddedjson": "./bin.js"
   },
+  "types": "index.d.ts",
   "dependencies": {
     "sharp": "^0.33.5"
   },
